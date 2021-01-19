@@ -31,7 +31,7 @@ a.navLink {
 }
 
 h1 {
-	font-size: 10rem;
+	font-size: 8rem;
 	padding: 0;
 	margin: 0;
 }
@@ -50,7 +50,7 @@ h1 {
 .aboutMeSection {
 	min-width: 200px;
 	position: relative;
-	width: 100%;
+	width: 50%;
 	padding: 20px;
 	margin: 20px;
 }
