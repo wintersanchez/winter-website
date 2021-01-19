@@ -1,4 +1,70 @@
 body {
+	padding: 0px;
+	margin: 0px;
 	color: #e8f3fc;
 	background-color: black;
+	font-family: sans-serif;
+}
+
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+	padding: 20px;
+	margin: 20px;
+	background-color: #5d87cf;
+	opacity: 0.5;
+}
+
+.navLink {
+	display: flex;
+	color: #e8f3fc;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 150px;
+	padding: 0;
+	margin: 0;
+}
+
+.sectionAll {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	flex-wrap: wrap;
+	width: auto;
+	padding: 20px;
+	margin: 20px;
+}
+
+.aboutMeSection {
+	min-width: 600px;
+	padding: 20px;
+	margin: 20px;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.aboutMeImages {
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 500px;
+	max-width: 600px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.aboutMeImages img {
+	width: 40%;
+	height: auto;
+	padding: 10px;
 }
