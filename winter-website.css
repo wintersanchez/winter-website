@@ -20,7 +20,7 @@ body {
 	opacity: 0.5;
 }
 
-.navLink {
+a.navLink {
 	display: flex;
 	color: #e8f3fc;
 	text-decoration: none;
@@ -31,7 +31,7 @@ body {
 }
 
 h1 {
-	font-size: 150px;
+	font-size: 10rem;
 	padding: 0;
 	margin: 0;
 }
@@ -40,7 +40,7 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: absolute;
+	position: relative;
 	flex-wrap: wrap;
 	width: auto;
 	padding: 20px;
@@ -48,7 +48,9 @@ h1 {
 }
 
 .aboutMeSection {
-	min-width: 600px;
+	min-width: 200px;
+	position: relative;
+	width: 100%;
 	padding: 20px;
 	margin: 20px;
 }
@@ -78,4 +80,92 @@ h2 {
 	width: auto;
 	color: #e8f3fc;
 	opacity: 0.75;
+}
+
+@media screen and (max-width: 760px) {
+	
+	.navBar {
+		display: flex;
+		flex-direction: row;
+		opacity: 0.75;
+	}
+	
+	h1 {
+		font-size: 5rem;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.sectionAll {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		flex-wrap: wrap;
+		width: auto;
+		padding: 20px;
+		margin: 20px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	
+	body {
+		
+	}
+	
+	.navBar {
+		display: flex;
+		flex-direction: column;
+		min-width: 30%;
+		width: 30%;
+		opacity: 1;
+		font-size: 80%;
+		padding: 5px 10px;
+		margin: 10px;
+	}
+	
+	a.navLink {
+		display: flex;
+		color: #e8f3fc;
+		text-decoration: none;
+		width: 100%;
+		padding: 5px 0px;
+	}
+	
+	h1 {
+		font-size: 3rem;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.sectionAll {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		flex-wrap: wrap;
+		width: auto;
+		padding: 20px;
+		margin: 20px;
+		max-width: 80%;
+	}
+	
+	.aboutMeSection {
+		min-width: 100px;
+		max-width: 100%;
+		width: 100%;
+		padding: 20px;
+		margin: 20px;
+		
+	}
+	
+	.aboutMeImages {
+		display: flex;
+		flex-wrap: wrap;
+		min-width: 200px;
+		max-width: 100%;
+		padding: 20px;
+		margin: 20px;
+	}
 }
