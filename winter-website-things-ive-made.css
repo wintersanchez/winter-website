@@ -1,17 +1,17 @@
-.contactMeSection {
+.thingsIveMadeSection {
 	display: flex;
 	margin: 1rem;
 	text-align: center;
 	display: block;
 }
 
-h1.contactMeText {
+h1.thingsIveMadeText {
 	color: #5d87cf;
 	margin: 3rem 5rem;
 	position: relative;
 }
 
-h2.contactMeTextDetails {
+h2.thingsIveMadeDetails {
 	color: #d4bdff;
 	margin: 3rem 5rem;
 	font-size: 3rem;
