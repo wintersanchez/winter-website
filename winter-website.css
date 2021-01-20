@@ -2,7 +2,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	color: #e8f3fc;
-	background-color: black;
+	background-color: #000000;
 	font-family: sans-serif;
 }
 
@@ -27,7 +27,7 @@ a.navLink {
 }
 
 .navLink:hover {
-	color: black;
+	color: #000000;
 }
 
 h1 {
