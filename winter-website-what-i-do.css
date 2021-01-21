@@ -24,7 +24,7 @@ h2.whatIDoDetails {
 		min-width: 300px;
 	}
 	
-.navBar {
+	.navBar {
 		display: flex;
 		flex-direction: column;
 		min-width: 30%;
@@ -42,7 +42,7 @@ h2.whatIDoDetails {
 		align-items: center;
 	}
 	
-a.navLink {
+	a.navLink {
 		display: flex;
 		color: #e8f3fc;
 		text-decoration: none;
