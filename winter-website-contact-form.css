@@ -18,5 +18,51 @@ h2.contactMeTextDetails {
 	position: relative;
 }
 
+form {
+	margin: 10%;
+	padding: 2%;
+	color: #000000;
+	width: 40%;
+	background-color: #7373bf;
+	text-align: left;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+	color: rgb(102,102,186, 0.6);
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 1% 0 3% 0;
+}
+
+input[type=text], input[type=email], input[type=tel]:after {
+	color: rgb(102,102,186);
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 1% 0 3% 0;
+}
+
+input[type=submit] {
+	margin-top: 5%;
+	background-color: #cdaaf2;
+	color: #341d42;
+	border-radius: 30%;
+	height: 4rem;
+	text-align: center;
+	border: none;
+}
+
+input[type=submit]:hover {
+	margin-top: 5%;
+	background-color: #341d42;
+	color: #cdaaf2;
+	border-radius: 30%;
+	height: 4rem;
+	text-align: center;
+	border: none;
+}
+
+
 
 

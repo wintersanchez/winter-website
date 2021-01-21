@@ -29,10 +29,28 @@
 		</h2>
 	</section>
 		
-	<form>
-		<input type="text" id="name">
-		<label for="name">Your name:&nbsp</label>
-		<input type="submit" value="Submit!">
+	<form class="contactForm">
+		
+		<label for="fullName">Full Name:&nbsp</label>
+		<input type="text" id="fullName" name="fullName" placeholder="Your name...">
+		
+		<label for="emailAddress">Email Address:&nbsp</label>
+		<input type="email" id="emailAddress" name="emailAddress" placeholder="abc123@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+		
+		<label for="telNum">Telephone Number:&nbsp</label>
+		<input type="tel" id="telNum" name="telNum" placeholder="01234-567-890" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}">
+		
+		<label for="subject">Subject:&nbsp</label>
+		<input type="text" id="subject" name="subject" placeholder="Subject...">
+		
+		<label for="moreDetails">Please provide extra details about your query:&nbsp</label>
+		<input type="text" id="moreDetails" name="moreDetails" placeholder="Type your message here...">
+		
+		<label for="extraDetails">Anything else you'd like me to know:&nbsp</label>
+		<input type="text" id="extraDetails" name="extraDetails" placeholder="Anything else...?">
+		
+		<input type="submit" class="button" value="Submit!">
+		
 	</form>
 	
 </body>
