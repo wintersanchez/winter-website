@@ -43,7 +43,7 @@ img {
 		min-width: 300px;
 	}
 	
-.navBar {
+	.navBar {
 		display: flex;
 		flex-direction: column;
 		min-width: 30%;
@@ -61,7 +61,7 @@ img {
 		align-items: center;
 	}
 	
-a.navLink {
+	a.navLink {
 		display: flex;
 		color: #e8f3fc;
 		text-decoration: none;
@@ -76,30 +76,25 @@ a.navLink {
 		border-color: #d4bdff;
 	}
 	
-h1 {
+	h1 {
 		color: #5d87cf;
 		margin: 3rem 5rem;
 		position: relative;
 		font-size: 4rem;
 	}
 
-h2 {
+	h2 {
 		color: #d4bdff;
 		margin: 3rem 5rem;
 		font-size: 2rem;
 		position: relative;
 	}
 	
-.thingsIveMadeSection {
-	
-	
-	}
-	
-.imageExamples {
-	display: inline-block;
+	.imageExamples {
+		display: inline-block;
 	}
 
-img, h3 {
+	img, h3 {
 		width: 50%;
 		padding: 10px;
 		text-align: center;

@@ -36,7 +36,7 @@ input[type=text], input[type=email], input[type=tel] {
 }
 
 input[type=text], input[type=email], input[type=tel]:after {
-	color: rgb(102,102,186);
+	color: #6666BA;
 	display: block;
 	position: relative;
 	width: 100%;
@@ -48,7 +48,7 @@ input[type=submit] {
 	background-color: #cdaaf2;
 	color: #341d42;
 	border-radius: 30%;
-	height: 4rem;
+	padding: 1.5rem;
 	text-align: center;
 	border: none;
 }
@@ -92,7 +92,7 @@ input[type=submit]:hover {
 		color: #e8f3fc;
 		text-decoration: none;
 		width: 100%;
-		padding: 5px 0px;
+		padding: 5px 0;
 		margin: 5px;
 		background-color: #6a8eb8;
 		padding: 0.5rem;
