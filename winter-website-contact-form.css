@@ -63,6 +63,60 @@ input[type=submit]:hover {
 	border: none;
 }
 
+@media screen and (max-width: 590px) {
+	
+	body {
+		min-width: 300px;
+	}
+	
+	.navBar {
+		display: flex;
+		flex-direction: column;
+		min-width: 30%;
+		width: 30%;
+		opacity: 1;
+		font-size: 80%;
+		padding: 5px 10px;
+		margin: 10px;
+		background-color: #856ab8;
+		padding: 0.5rem;
+		border-radius: 0.2rem;
+		border-style: solid;
+		border-width: 0.15rem;
+		border-color: #d4bdff;
+		align-items: center;
+	}
+	
+	a.navLink {
+		display: flex;
+		color: #e8f3fc;
+		text-decoration: none;
+		width: 100%;
+		padding: 5px 0px;
+		margin: 5px;
+		background-color: #6a8eb8;
+		padding: 0.5rem;
+		border-radius: 0.2rem;
+		border-style: solid;
+		border-width: 0.05rem;
+		border-color: #d4bdff;
+	}
+	
+	h1.contactMeText {
+		color: #5d87cf;
+		margin: 3rem 5rem;
+		position: relative;
+		font-size: 4rem;
+	}
+
+	h2.contactMeTextDetails {
+		color: #d4bdff;
+		margin: 3rem 5rem;
+		font-size: 2rem;
+		position: relative;
+	}
+}
+
 
 
 
